@@ -1,0 +1,175 @@
+.hero2 {
+    background: url(hero2.jpg);
+    position: relative;
+    object-fit: fill;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(#3388d796, #09315791), url(hero2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.footer {
+    .container {
+        padding: 0 150px;
+        padding-top: 250px;
+
+        .displayGrid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+
+            .logo {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 25px;
+                justify-content: center;
+
+                img {
+                    width: 180px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    width: 304px;
+                    text-align: left;
+                    color: #f9f9ff;
+                }
+
+                .displayFlex {
+                    display: flex;
+                    align-items: start;
+                    text-align: left;
+
+                    i {
+                        padding: 10px;
+                        border-radius: 50%;
+                        background-color: #f9f9ff;
+                    }
+                }
+            }
+
+            .links {
+                display: flex;
+                gap: 25px;
+                justify-content: end;
+
+                .link {
+                    h4 {
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        padding-bottom: 10px;
+                        color: #fff;
+                    }
+
+                    ul {
+                        text-decoration: none;
+                        list-style: none;
+
+                        li {
+                            padding: 5px 0;
+                            font-weight: 300;
+                            font-size: 14px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .resources {
+                    h4 {
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        padding-bottom: 10px;
+                        color: #fff;
+                    }
+
+                    ul {
+                        text-decoration: none;
+                        list-style: none;
+
+                        li {
+                            padding: 5px 0;
+                            font-weight: 300;
+                            font-size: 14px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .work {
+                    h4 {
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        padding-bottom: 10px;
+                        color: #fff;
+                    }
+
+                    ul {
+                        text-decoration: none;
+                        list-style: none;
+
+                        li {
+                            padding: 5px 0;
+                            font-weight: 300;
+                            font-size: 14px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer_end {
+    .displayFlex {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 125px;
+
+        img {
+            width: 120px;
+        }
+
+        p {
+            color: #7C7D82;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+}
+
+.arrow {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 99999999;
+
+    i {
+        text-align: center;
+        padding: 15px 20px;
+        border-radius: 50%;
+        background-color: #7c7d824d;
+        color: #1018285a;
+        font-size: larger;
+
+    }
+}

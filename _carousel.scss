@@ -1,0 +1,26 @@
+.carousel {
+    .container{
+        padding: 15px 50px;
+        .arrow-left{
+            img{
+                width: 355px;
+            }
+        }
+        .logo{
+            img{
+                width: 200px;
+            }
+        }
+    }
+    .displayFlex {
+        display: flex;
+        gap: 25px;
+        padding: 50px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container {
+        padding: 80px 80px;
+    }
+}

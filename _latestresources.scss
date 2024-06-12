@@ -1,0 +1,103 @@
+.latest_resources {
+    background-color: #f9f9ff;
+
+    .container {
+        padding: 25px 105px;
+        display: block;
+        text-align: center;
+
+        h1 {
+            color: #101828;
+            padding-top: 25px;
+            font-weight: 600;
+            font-size: 32px;
+        }
+
+        h4 {
+            color: #101828;
+            padding-top: 25px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .displayGrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 15px 85px;
+            gap: 30px;
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                gap: 25px;
+                background-color: #fff;
+                border-radius: 25px;
+                padding: 35px;
+                margin-top: 20px;
+
+                .footer {
+                    text-align: left;
+
+                    a {
+                        color: #1D6FA3;
+                        text-decoration: none;
+
+                        i {
+                            color: #1D6FA3;
+                        }
+                    }
+                }
+
+                h2 {
+                    color: #101828;
+                    font-size: x-large;
+                    text-align: left;
+                }
+
+                p {
+                    color: #101828;
+                    font-size: large;
+                    font-weight: 400;
+                    text-align: left;
+                }
+
+                .tool {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    i {
+                        padding: 10px;
+                        border-radius: 10px;
+                        background-color: #eddbff;
+                        color: #a276ff;
+                        font-size: x-large;
+                    }
+
+                    h6 {
+                        color: #101828;
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
+                }
+            }
+        }
+
+        .foot {
+            text-align: center;
+            margin-top: 30px;
+            display: block;
+
+            a {
+                border: 2px #1D6FA3 solid;
+                color: #101828;
+                padding: 15px 10px;
+                border-radius: 10px;
+                text-decoration: none;
+
+            }
+        }
+    }
+}
